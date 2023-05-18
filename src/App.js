@@ -5,7 +5,7 @@ import './Main.css';
 function App() {
 
   function handleOnSearchChange(a) {
-    console.log(a);
+    const [lan, lon] = a.value.split(' ');
   };
 
   return (
